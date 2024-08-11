@@ -1,7 +1,9 @@
-.container{max-width: 800px;}
+.App{max-width: 960px;
+margin: 0 auto;
+padding: 30px 0 100px;}
 
 body {background-image: 
-    linear-gradient(rgba(252, 108, 133, 0.2), rgba(252, 108, 133, 0.2)), 
+    linear-gradient(rgba(119, 114, 115, 0.2), rgba(153, 147, 148, 0.2)), 
     url(./book.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -15,11 +17,12 @@ text-decoration: none;}
 
 .App-header{margin: 30px 0;}
 
-.app-logo{max-width: 500px;
+.app-logo{height: 300px;
+  width: 90%;
 display: block;
 margin: 0 auto;
 padding: 10px 0;}
 
 .app-footer{ text-align: center;
 margin: 30px 0; 
-color: black;}
+color:white;}

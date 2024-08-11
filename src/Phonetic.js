@@ -4,6 +4,7 @@ import "./Phonetic.css";
 export default function Phonetic(props) {
   return (
     <div>
+      
       {props.phonetic ? (
         <section>
           <h4>Phonetic: {props.phonetic}</h4>
