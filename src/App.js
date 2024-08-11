@@ -10,7 +10,7 @@ import './App.css';
         <img src={logo} className="app-logo img-fluid" alt="logo"/>
        </header>
        <main>
-        <Dictionary/>
+        <Dictionary defaultKeyword="sunset"/>
         </main>
       <footer className="app-footer">Coded by Nicolette Steenkamp, the code is <a href="https://github.com/NicoletteSteenkamp/dictionary" target="_blank" rel="noreferrer"> open-sourced</a> and deployed on <a href="https://dictionarify.netlify.app/" target="_blank" rel="noreferrer">Netlify</a></footer>
       </div>
